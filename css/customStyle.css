@@ -15,8 +15,16 @@ a:focus {
   text-decoration: none;
 }
 
-a.donate-text{
+.navbar-default .navbar-nav>li>a.donate-text{
   color:#FFFFFF;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.navbar-default .navbar-nav>li>a.donate-text:hover{
+  background-color:#005D9A;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
 }
 
 #wrap {
@@ -38,7 +46,7 @@ body{
   background-color: #FFFFFF;
   background-image: url('../img/Ronald+Benjamin+Banner.jpg');
   background-position: center;
-  height:80vh;
+  height:90vh;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   margin-bottom: 10px;
@@ -387,15 +395,6 @@ ul.children{
   list-style-type: none;
 }
 
-/*footer{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  text-align: center;
-} */
-
 .blog-footer{
   text-align: center;
   position: relative;
@@ -492,8 +491,8 @@ input[type=search]{
       display: inline;
     }
 
-    .navbar li{
-      color: #FFFFFF;
+    .navbar-default .navbar-nav>li>a{
+      color:#FFFFFF;
     }
 
     .custom-mobile-header-container{
