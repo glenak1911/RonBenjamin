@@ -1,0 +1,518 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  color: #FFFFFF;
+  background-color: #005D9A;
+}
+
+a:hover,
+a:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+a.donate-text{
+  color:#FFFFFF;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 150px; /* must be same height as the footer */
+}
+
+body{
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  color: #000;
+}
+
+.jumbotron{
+  text-align: center;
+  background-color: #FFFFFF;
+  background-image: url('../img/Ronald+Benjamin+Banner.jpg');
+  background-position: center;
+  height:90vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+}
+
+.custom_logo{
+  height:40px;
+  width:40px;
+}
+
+.navbar{
+  background-color: #FFFFFF;
+  margin:0px;
+  height:10vh;
+  border: none;
+}
+
+.donate-button{
+  background-color:#ff0000;
+}
+
+.front-page-image{
+  height:400px;
+  width:400px;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  margin-bottom: 10px;
+}
+
+.front-page-text{
+  font-family:serif;
+  color: #fffdd0;
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+}
+
+.front-page-highlighting{
+  background-color: #4d0000;
+}
+
+h1.header{
+  font-family: 'font94030', cursive;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+}
+
+a.titleHeader{
+  color: #000000;
+}
+
+a.panelHeader{
+  color: #ffffe6;
+  font-size: 1.5em;
+}
+
+p.titleDescription{
+  color: #000000;
+  letter-spacing: 1.5px;
+  font-size: 10pt;
+  text-align: center;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  -webkit-text-transform: uppercase;
+}
+
+.top-buffer {
+  margin-top:20px;
+}
+
+.blog-post-title{
+  font-family: 'font94030', cursive;
+  letter-spacing: 1.5px;
+  color: #000;
+}
+
+
+.category-title{
+  margin-bottom: 0px;
+  font-size: 1.45em;
+  letter-spacing: 1.5px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  -webkit-text-transform: uppercase;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+.category-yannivlogs-page h2{
+  text-align: center;
+}
+
+.grid-title-custom{
+  font-size: 1.55em;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+.comment-reply-title{
+  font-size: 1.2em;
+  text-align: center;
+  color: #000;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+.blog-post-meta a{
+  color: #e03ecb;
+}
+
+.center-title{
+  text-align:center;
+}
+
+#comments{
+  text-align: center;
+}
+
+.blog-post-title{
+  color: #000;
+}
+
+.frontPageSection{
+  margin:0px;
+  width:100%;
+  height:300px;
+  border-radius: 2px;
+  padding-bottom:5px;
+  text-align:center;
+  position:relative;
+  word-wrap: break-word;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -webkit-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.img-helper{
+  height: 300px;
+  line-height: 300px;
+}
+
+.img-helper img{
+  vertical-align: middle;
+}
+
+.frontPageHeaderContainer{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  background-color: #e03ecb;
+}
+
+.frontPageSection:hover .frontPageHeaderContainer{
+  opacity: 1.0;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.frontPagePost{
+  position:relative;
+  z-index: -1;
+}
+
+.frontPageHeader{
+  font-family: 'font94030', cursive;
+  font-size: 1.8em;
+  line-height: 300px;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  width:100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+ol{
+    margin: 0px;
+}
+
+ol.socialMedia li{
+  display:inline-block;
+}
+
+a:hover{
+  text-decoration:none;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.postContainer{
+  padding:5px;
+  width:100%;
+}
+
+.postContainer a{
+  text-decoration: underline;
+}
+
+#gridcontainer{
+  width: 100%;
+}
+
+#gridcontainer h2 a{
+  color: #77787a;
+  font-size: 13px;
+}
+.griditemleft{
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin: 0;
+}
+
+#gridcontainer .griditemright{
+  float: left;
+  width: 300px;
+  height: 300px;
+}
+
+.littleNoteSquare{
+  perspective: 300px;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.littleNoteSquare:hover{
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.excerpt_container {
+    width: 50%;
+    height: 300px;
+    margin: 0 auto;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+}
+
+.excerpt_container a{
+    color: #000;
+}
+
+.center {
+    height: 300px;
+    text-align: center;
+}
+
+.center p span{
+  vertical-align: middle;
+}
+
+.center-title-custom{
+    padding-top:100px;
+}
+
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+  width: 100%;
+  height: 300px;
+}
+
+/* flip speed goes here */
+.flipper {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+
+.front img{
+  margin: auto;
+  vertical-align: middle;
+}
+
+/* back, initially hidden pane */
+.back {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.excerpt_container_flex{
+  margin: auto 5px;
+  width: 100%;
+}
+
+.blog-post{
+  background-color:#ffffff;
+  opacity:.8;
+  border-radius: 5px;
+}
+
+.thumbnailClass{
+  height:300px;
+  width:100%;
+}
+
+.comments-area{
+  background-color:#ffffff;
+  opacity:.8;
+  padding:2px;
+  border-radius: 5px;
+}
+
+ul.comment-list{
+  list-style-type: none;
+}
+
+ul.children{
+  list-style-type: none;
+}
+
+/*footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+} */
+
+.blog-footer{
+  text-align: center;
+  position: relative;
+  margin-top: -140px; /* negative value of footer height */
+  height: 140px;
+  width:100%;
+  clear:both;
+  font-size:small;
+  border-top: none;
+  background-color: #383838;
+  color:#FFFFFF;
+  padding:10px 0px 0px 0px;
+}
+
+.btn-custom{
+  background-color:#e03ecb;
+  color: #fff;
+  -webkit-transition: background-color .8s ease-in-out; /* Safari */
+  transition: background-color .8s ease-in-out;
+}
+
+.btn-custom:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+.imageHolder{
+  height:100%;
+  width:100%;
+}
+
+.credits{
+  font-size: small;
+}
+
+.credits:hover{
+  font-weight:bold;
+  -webkit-transition: font-weight .8s ease-in-out; /* Safari */
+  transition: font-weight .8s ease-in-out;
+}
+
+.searchBox{
+  padding:3px;
+  border-color: #e03ecb;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+.screen-reader-text{
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+input[type=search]{
+  -webkit-appearance: searchfield;
+}
+
+.error_page{
+  height:100%;
+  width:100%;
+}
+
+.error_img{
+  height:300px;
+  width: 350px;
+}
+
+@media screen and (min-width: 767px){
+  hr.headerHr-top{
+    margin:20px 0px 10px 0px;
+    height: 3px;
+    background-color: #B74C82;
+    border-top: 2px dotted #8c8b8b;
+    border:none;
+  }
+
+  .custom-mobile-header-container{
+    display:none;
+  }
+
+  .custom-nav-container{
+    display:inline-block;
+  }
+}
+
+@media screen and (max-width: 767px){
+    h1.header{
+        font-size: 50px;
+    }
+
+    nav.navbar{
+      display: inline;
+    }
+
+    .navbar li{
+      color: #FFFFFF;
+    }
+
+    .custom-mobile-header-container{
+      display:block;
+    }
+
+    .custom-nav-container{
+      display:none;
+    }
+
+    .customBuffer{
+      padding-bottom: 20px;
+    }
+
+    a.panelHeader{
+      font-size:1.3em;
+    }
+
+    .navbar-brand{
+      display:none;
+    }
+
+    .jumbotron{
+      display:none;
+    }
+}
