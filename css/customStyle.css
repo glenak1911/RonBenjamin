@@ -38,7 +38,7 @@ body{
   background-color: #FFFFFF;
   background-image: url('../img/Ronald+Benjamin+Banner.jpg');
   background-position: center;
-  height:90vh;
+  height:80vh;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   margin-bottom: 10px;
@@ -401,13 +401,17 @@ ul.children{
   position: relative;
   margin-top: -140px; /* negative value of footer height */
   height: 140px;
-  width:100%;
   clear:both;
   font-size:small;
   border-top: none;
   background-color: #383838;
   color:#FFFFFF;
   padding:10px 0px 0px 0px;
+}
+
+.blog-footer .row{
+  margin-left:0;
+  margin-right:0;
 }
 
 .btn-custom{
@@ -515,4 +519,5 @@ input[type=search]{
     .jumbotron{
       display:none;
     }
+
 }
