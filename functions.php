@@ -76,6 +76,7 @@ add_theme_support( 'post-thumbnails' );
 
 
 add_filter( 'wpcmn_type_support', 'cmm_partial_types' );
+add_filter('xmlrpc_enabled', '__return_false');
 
 /**
  * Support Search Form

@@ -21,8 +21,9 @@ a:focus {
   transition: .3s ease;
 }
 
-.navbar-default .navbar-nav>li>a.donate-text:hover{
+.navbar-default .navbar-nav>li>a:hover{
   background-color:#005D9A;
+  color:#FFFFFF;
   -webkit-transition: .3s ease-out;
   transition: .3s ease-out;
 }
@@ -61,7 +62,6 @@ body{
 .navbar{
   background-color: #FFFFFF;
   margin:0px;
-  height:10vh;
   border: none;
 }
 
@@ -80,7 +80,7 @@ body{
 }
 
 .front-page-text{
-  font-family:serif;
+  font-family: 'Kreon', serif;
   color: #fffdd0;
   font-size: 20px;
   font-weight: bolder;
@@ -91,41 +91,30 @@ body{
   background-color: #4d0000;
 }
 
-h1.header{
-  font-family: 'font94030', cursive;
-  margin-bottom: 0px;
-  padding-bottom: 5px;
+.front-page-header-highlighting{
+  font-family: 'Kreon', serif;
+  font-size: 30px;
+  background-color: #4d0000;
+  color:#fffdd0;
+  display:none;
 }
 
-a.titleHeader{
-  color: #000000;
+.front-page-section-header-highlighting{
+  font-family: 'Kreon', serif;
+  font-size: 20px;
+  background-color: #4d0000;
+  color:#fffdd0;
 }
 
-a.panelHeader{
-  color: #ffffe6;
-  font-size: 1.5em;
+.front-page-promo-display{
+    border:1px solid #FFFFFF;
+    margin: 5px;
+    padding: 5px;
 }
 
-p.titleDescription{
-  color: #000000;
-  letter-spacing: 1.5px;
-  font-size: 10pt;
-  text-align: center;
-  margin-bottom: 0px;
-  text-transform: uppercase;
-  -webkit-text-transform: uppercase;
+.front-page-section{
+  margin:5px;
 }
-
-.top-buffer {
-  margin-top:20px;
-}
-
-.blog-post-title{
-  font-family: 'font94030', cursive;
-  letter-spacing: 1.5px;
-  color: #000;
-}
-
 
 .category-title{
   margin-bottom: 0px;
@@ -135,9 +124,6 @@ p.titleDescription{
   text-transform: uppercase;
   -webkit-text-transform: uppercase;
   font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
-}
-.category-yannivlogs-page h2{
-  text-align: center;
 }
 
 .grid-title-custom{
@@ -168,20 +154,6 @@ p.titleDescription{
   color: #000;
 }
 
-.frontPageSection{
-  margin:0px;
-  width:100%;
-  height:300px;
-  border-radius: 2px;
-  padding-bottom:5px;
-  text-align:center;
-  position:relative;
-  word-wrap: break-word;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  -webkit-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-
 .img-helper{
   height: 300px;
   line-height: 300px;
@@ -203,11 +175,6 @@ p.titleDescription{
   -webkit-transition: .3s ease;
   transition: .3s ease;
   background-color: #e03ecb;
-}
-
-.frontPageSection:hover .frontPageHeaderContainer{
-  opacity: 1.0;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .frontPagePost{
@@ -517,6 +484,14 @@ input[type=search]{
 
     .jumbotron{
       display:none;
+    }
+
+    .front-page-header-highlighting{
+      display:inline-block;
+    }
+
+    .front-page-section-header-highlighting{
+      font-size:2em;
     }
 
 }

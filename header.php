@@ -16,6 +16,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Kreon" rel="stylesheet">
     <?php wp_head(); ?>
   </head>
   <body>
@@ -36,7 +37,7 @@
             <li ontouchstart="this.classList.toggle('hover');"><a href="<?php bloginfo( 'url' );?>/bio">Bio</a></li>
             <li ontouchstart="this.classList.toggle('hover');"><a href="<?php bloginfo( 'url' );?>/platform">Our Platform</a></li>
             <li ontouchstart="this.classList.toggle('hover');"><a href="<?php bloginfo( 'url' );?>/blog">Ben's Blog</a></li>
-            <li ontouchstart="this.classList.toggle('hover');"><a href="<?php bloginfo( 'url' );?>/Events">Events</a></li>
+            <li ontouchstart="this.classList.toggle('hover');"><a href="<?php bloginfo( 'url' );?>/events">Events</a></li>
             <li ontouchstart="this.classList.toggle('hover');" class="donate-button"><a class="donate-text" href="https://secure.actblue.com/entity/fundraisers/48657">Donate</a></li>
           </ul>
         </div><!--/.nav-collapse -->
