@@ -36,7 +36,7 @@
             <li ontouchstart="this.classList.toggle('hover');"><a href="<?php bloginfo( 'url' );?>">Main</a></li>
             <li ontouchstart="this.classList.toggle('hover');"><a href="<?php bloginfo( 'url' );?>/bio">Bio</a></li>
             <li ontouchstart="this.classList.toggle('hover');"><a href="<?php bloginfo( 'url' );?>/platform">Our Platform</a></li>
-            <li ontouchstart="this.classList.toggle('hover');"><a href="<?php bloginfo( 'url' );?>/blog">Ben's Blog</a></li>
+            <!--<li ontouchstart="this.classList.toggle('hover');"><a href="<?php bloginfo( 'url' );?>/blog">Ben's Blog</a></li>-->
             <li ontouchstart="this.classList.toggle('hover');"><a href="<?php bloginfo( 'url' );?>/events">Events</a></li>
             <li ontouchstart="this.classList.toggle('hover');" class="donate-button"><a class="donate-text" href="https://secure.actblue.com/entity/fundraisers/48657">Donate</a></li>
           </ul>
