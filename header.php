@@ -17,6 +17,7 @@
     <![endif]-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Kreon" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
     <?php wp_head(); ?>
   </head>
   <body>
@@ -45,6 +46,9 @@
     </nav>
     <div id="wrap">
       <div id="main">
+        <div class="vote-reminder">
+          <p class="vote-reminder-text">Vote Ronald Benjamin November 7, 2017</p>
+        </div>
         <div class="jumbotron">
           <div>
             <!--<h1 class="header"><a class="titleHeader" href="<?php bloginfo( 'url' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>-->
