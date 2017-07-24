@@ -56,7 +56,7 @@
    </div>
    <div class="row">
      <div class="col-md-6 full-size">
-       <img class="front-page-image-box-desktop" src="<?php echo THEME_IMG_PATH; ?>/423A5545.JPG" />
+       <img class="front-page-image-box-desktop" src="<?php echo THEME_IMG_PATH; ?>/Ron+5.jpg" />
        <div class="overlay">
          <span class="front-page-section-header-highlighting">Economic Empowerment</span>
          <p class="front-page-list-text">Addressing the issues of local neighborhoods becoming overshadowed by a surplus of big businesses, corporations, chain stores, and large scale commercial and residential developments.</p>
@@ -114,7 +114,7 @@
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                             <div class="panel-body">
-                              <img class="front-page-image-box" src="<?php echo THEME_IMG_PATH; ?>/423A5545.JPG" />
+                              <img class="front-page-image-box" src="<?php echo THEME_IMG_PATH; ?>/Ron+5.jpg" />
                               <p class="front-page-list-text">Increasing affordable housing availabiliy and making it truly available for low &amp; moderate income residents because current affordable housing is not sufficient.</p>
                               <!--<a class="btn btn-default btn-md" href="<?php bloginfo( 'url' );?>/platform#economic" role="button">Read more</a>-->
                             </div>
