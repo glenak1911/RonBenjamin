@@ -683,8 +683,8 @@ input[type=search]{
     }
 
     .front-page-image{
-      height:400px;
-      width:400px;
+      height:300px;
+      width:300px;
     }
     .accordion-holder{
       display:inline-block;
@@ -699,7 +699,7 @@ input[type=search]{
    }
 
     .vote-reminder-text{
-      font-size:1.5em;
+      font-size:1em;
       vertical-align: middle;
    }
 
