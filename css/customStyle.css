@@ -520,6 +520,11 @@ ul.children{
   font-size:2em;
 }
 
+.intro-video{
+  width:"560";
+  height:"315";
+}
+
 .blog-footer{
   text-align: center;
   position: relative;
@@ -613,6 +618,14 @@ input[type=search]{
   .desktop-front-page{
     display:inline-block;
   }
+
+  .desktop-intro-video{
+    display:inline-block;
+  }
+
+  .mobile-intro-video{
+    display:none;
+  }
 }
 
 @media screen and (max-width: 767px){
@@ -666,13 +679,13 @@ input[type=search]{
 
     .front-page-image-box{
       height:250px;
-      width:300px;
+      width:100%;
     }
-    
-  .front-page-image{
-    height:400px;
-    width:400px;
-  }
+
+    .front-page-image{
+      height:400px;
+      width:400px;
+    }
     .accordion-holder{
       display:inline-block;
     }
@@ -690,6 +703,15 @@ input[type=search]{
       vertical-align: middle;
    }
 
+   .desktop-intro-video{
+     display:none;
+   }
+
+   .mobile-intro-video{
+     display:inline-block;
+     width:90vw;
+     height:260px;
+   }
 }
 
 @media (min-width: 992px){

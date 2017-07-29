@@ -7,6 +7,12 @@
     </div>
   </div>
   <div class="row">
+    <div class="col-md-offset-3 col-md-12">
+      <iframe class="mobile-intro-video" src="https://www.youtube.com/embed/eyEOBhfHzhY?rel=0" frameborder="0" allowfullscreen></iframe>
+      <iframe class="desktop-intro-video" width="640" height="360" src="https://www.youtube.com/embed/eyEOBhfHzhY?rel=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="row">
     <div class="col-md-5">
       <span class="front-page-header-highlighting">#VoteBenjamin2017</span>
       <img class="front-page-image" src="<?php echo THEME_IMG_PATH; ?>/Ronald+Benjamin7182017.jpeg" />
