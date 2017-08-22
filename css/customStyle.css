@@ -5,6 +5,7 @@
 
 html, body {
   height: 100%;
+  width:100%;
   color: #FFFFFF;
   background-color: #005D9A;
 }
@@ -21,6 +22,19 @@ a:focus {
   transition: .3s ease;
 }
 
+a.donate-text{
+  color:#FFFFFF;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+a.donate-text:hover{
+  background-color:#005D9A;
+  color:#FFFFFF;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
 .navbar-default .navbar-nav>li>a:hover{
   background-color:#005D9A;
   color:#FFFFFF;
@@ -34,7 +48,7 @@ a:focus {
 
 #main {
   overflow: auto;
-  padding-bottom: 200px; /* must be same height as the footer */
+  padding-bottom: 175px; /* must be same height as the footer */
 }
 
 body{
@@ -45,8 +59,8 @@ body{
 .jumbotron{
   text-align: center;
   background-color: #FFFFFF;
-  background-image: url('../img/Ronald+Benjamin+Banner.jpg');
-  background-position: center;
+  /*background-image: url('../img/Ronald+Benjamin+Banner.jpg');
+  background-position: center;*/
   height:90vh;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -63,6 +77,8 @@ body{
   background-color: #FFFFFF;
   margin:0px;
   border: none;
+  width:100%;
+  border-radius: 0;
 }
 
 .donate-button{
@@ -96,20 +112,20 @@ body{
 }
 
 .full-size img{
-  height: 600px;
-  width: 100%;
+    width: 100%;
 }
 
 .front-page-text{
-  font-family: 'Kreon', serif;
+  font-family: 'Istok Web', sans-serif;
   color: #fffdd0;
   font-size: 20px;
   font-weight: bolder;
   letter-spacing: 1.5px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .front-page-list-text{
-  font-family: 'Kreon', serif;
+  font-family: 'Istok Web', sans-serif;
   color: #fffdd0;
   font-size: 18px;
   font-weight: bolder;
@@ -121,7 +137,7 @@ body{
 }
 
 .front-page-header-highlighting{
-  font-family: 'Kreon', serif;
+  font-family: 'Istok Web', sans-serif;
   font-size: 30px;
   background-color: #b20000;
   color:#fffdd0;
@@ -129,14 +145,14 @@ body{
 }
 
 .header-highlighting{
-  font-family: 'Kreon', serif;
+  font-family: 'Istok Web', sans-serif;
   font-size: 30px;
   background-color: #b20000;
   color:#fffdd0;
 }
 
 .front-page-section-header-highlighting{
-  font-family: 'Kreon', serif;
+  font-family: 'Istok Web', sans-serif;
   font-size: 20px;
   background-color: #b20000;
   color:#fffdd0;
@@ -510,7 +526,7 @@ ul.children{
 
 .vote-reminder{
   height:50px;
-  width:100%;
+  width:100vw;
   background-color:#b20000;
 }
 
@@ -619,12 +635,27 @@ input[type=search]{
     display:inline-block;
   }
 
+  .desktop-front-page-text{
+    display:none;
+  }
+
   .desktop-intro-video{
     display:inline-block;
   }
 
   .mobile-intro-video{
     display:none;
+  }
+
+  .carousel{
+    width:100vw;
+  }
+
+  .carousel-inner > .item > img {
+  /*width:100vw;*/
+  height:700px;
+  display:block;
+  margin:auto;
   }
 }
 
@@ -692,6 +723,10 @@ input[type=search]{
 
     .desktop-front-page{
       display:none;
+    }
+
+    .desktop-front-page-text{
+      display:inline-block;
     }
 
     .vote-reminder{

@@ -39,20 +39,9 @@
             <li ontouchstart="this.classList.toggle('hover');"><a href="<?php bloginfo( 'url' );?>/platform">Our Platform</a></li>
             <!--<li ontouchstart="this.classList.toggle('hover');"><a href="<?php bloginfo( 'url' );?>/blog">Ben's Blog</a></li>-->
             <li ontouchstart="this.classList.toggle('hover');"><a href="<?php bloginfo( 'url' );?>/events">Events</a></li>
+            <li ontouchstart="this.classList.toggle('hover');"><a href="<?php bloginfo( 'url' );?>/get-involved">Get Involved</a></li>
             <li ontouchstart="this.classList.toggle('hover');" class="donate-button"><a class="donate-text" href="https://secure.actblue.com/entity/fundraisers/48657">Donate</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div><!--/.container-fluid -->
     </nav>
-    <div id="wrap">
-      <div id="main">
-        <div class="vote-reminder">
-          <p class="vote-reminder-text">Vote Ronald Benjamin November 7, 2017</p>
-        </div>
-        <div class="jumbotron">
-          <div>
-            <!--<h1 class="header"><a class="titleHeader" href="<?php bloginfo( 'url' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>-->
-            <!--<p class="titleDescription"><?php echo get_bloginfo( 'description' ); ?></p>-->
-          </div>
-        </div>
-      <div class="container">

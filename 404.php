@@ -1,4 +1,7 @@
 <?php get_header(); ?>
+<div id="wrap">
+  <div id="main">
+		<div id="container">
 	<div class="error_page center">
 		<h2 class="category-title center-title">404 Page Not Found</h2>
 		<img class="error_img" src="<?php bloginfo('template_directory'); ?>/img/404cat.jpg">

@@ -1,5 +1,7 @@
 <?php get_header(); ?>
-
+<div id="wrap">
+  <div id="main">
+		<div id="container">
 	<div class="row">
 
 		<div class="col-md-8 blog-main">
